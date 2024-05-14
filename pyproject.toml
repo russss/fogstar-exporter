@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "fogstar-exporter"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "fogstar_exporter"}]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.13"
+bleak = "^0.21.1"
+prometheus-client = "^0.17.1"
+click = "^8.1.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
