@@ -1,5 +1,0 @@
-# fogstar-exporter
-
-Prometheus exporter for Fogstar bluetooth batteries.
-
-Loosely based on https://github.com/sw-home/FHEM-BluetoothSmartBMS
